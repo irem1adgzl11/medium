@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/medium.css">
+<title>Medium</title>
+</head>
+<body>
+<!-- Aşağıdaki divin claslarını yan sekmeden yazıyoruz buraya ekledik -->
+<div style="background-color:rgb(255, 192, 23); border-bottom: 1px  solid rgba(0, 0, 0, 0.8);;">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#"><strong >Medium</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- ml-auto yazıları sağa kaydırması gerekiyor ama bende işe yaramadı -->
+    <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+    <!-- Home biz kendimiz ekledik orijinalde yok neden ekledik bilmiyorum -->
+    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item ">
+    <a class="nav-link" href="#">Our Story </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Membership</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Write</a>
+    </li>
+    <!-- ml komutu bende çalışmıyor? -->
+    <li class="nav-item ml-3">
+    <a class="nav-link" href="#">Sign In</a>
+    </li>
+    <li class="nav-item">
+    <!-- btn dark ile get started siyah kutucuğa aldık text light diyerek yazıyı beyaz yaptık -->
+    <a class="nav-link btn btn-dark text-light" href="#">Get Started</a>
+    </li>
+    </ul>
+    </div>
+    </nav>
+    </div>
+    </div>
+<div style ="background-color:rgb(255, 192, 23); border-bottom: 1px  solid rgba(0, 0, 0, 0.8);">
+<div class="container">
+<div class="row">
+<!-- display-4 ile yazıyı daha da büyüttük -->
+<div class="col-6"><h1 class="display-4 mt-5"> Medium is a place to write, read, and <br> connect</h1>
+<p class="lead mt-5">It's easy and free to post your thinking on any topic and <br> connect with millions of readers.</p>
+<a href="#" class="btn btn-outline-dark mt-5">Start Writing</a>
+</div>
+<!-- rounded-circle ile resmi yuvarlak yaptık ,float-right resmi sola kaydırmalı ama bende yine olmadı -->
+<div class="col-6 mt-5">
+<img src="https://picsum.photos/300/300" alt="" class="rounded-circle float-right ml-3 mt-5"></div>
+</div>
+</div>
+</div>
+<!-- mt-5 altalta yazılar arası boşluk miktarını belirliyoruz -->
+<div class="container mt-5">
+<div class="row">
+<div class="col-12 mb-2">
+<h6><i class="fas fa-rocket"></i><small class="ml-3 mt-5">TRENDING ON MEDIUM</small>
+</h6>
+</div>
+<article class="col-sm-4">
+<div class="row">
+<div class="col-1">
+<!-- text-black-50 ile yazıyı gri ve kalın yaptık -->
+<h4 class="text-black-50">01</h4>
+</div>
+<div class="col-11">
+<img class="rounded-circle float-right" src="https://picsum.photos/id/11/20/20" alt="" >
+<span class="small ml-1">Geraldine DeRuiter</span>
+<h6 class="mt-2">
+<strong>Bros., Lecce: We Eat at The Worst Michelin <br> Starred Restaurant, Ever
+</strong>
+</h6>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 8</li>
+<li class="list-inline-item">10 min read</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i>
+</li>
+</ul>
+</div>
+</div>
+</article>
+<article class="col-sm-4">
+<div class="row">
+<div class="col-1">
+<h4 class="text-black-50">02</h4>
+</div>
+<div class="col-11">
+<img class="rounded-circle float-right" src="https://picsum.photos/id/12/20/20" alt="" >
+<span class="small ml-1">Barack Obama</span>
+<h6 class="mt-2"><strong>My 2021 End of Year Lists</strong></h6>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 17</li>
+<li class="list-inline-item">3 min read</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="col-sm-4">
+<div class="row">
+<div class="col-1">
+<h4 class="text-black-50">03</h4>
+</div>
+<div class="col-11">
+<!-- id numarasını değişitirerek resimleri birbirinden farklı yapabiliriz -->
+<img class="rounded-circle float-right" src="https://picsum.photos/id/13/20/20" alt="" >
+<span class="small ml-1">Benjamin Nweke in Towards Data Science</span>
+<h6 class="mt-2">
+<strong>I Took 12 Data Science Courses For <br> 3 Months — Here’s What I Wish I Knew Earlier
+</strong>
+</h6>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 17</li>
+<li class="list-inline-item">7 min read</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i>
+</li>
+</ul>
+</div>
+</div>
+</article>
+<article class="col-sm-4">
+<div class="row">
+<div class="col-1">
+<h4 class="text-black-50">04</h4>
+</div>
+<div class="col-11">
+<img class="rounded-circle float-right" src="https://picsum.photos/id/14/20/20" alt="" >
+<span class="small ml-1">Charles Sestito</span>
+<h6 class="mt-2">
+<strong>Buffalo Trace is finally stopping <br> counterfeiters, but didn’t tell anyone.
+</strong>
+</h6>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 14</li>
+<li class="list-inline-item">4 min read</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="col-sm-4">
+<div class="row">
+<div class="col-1">
+<h4 class="text-black-50">05</h4>
+</div>
+<div class="col-11">
+<img class="rounded-circle float-right" src="https://picsum.photos/id/15/20/20" alt="" >
+<span class="small ml-1">Geoff</span>
+<h6 class="mt-2">
+<strong>Analysing the FIA Rulebook after the Abu <br> Dhabi Grand Prix — A Lawyers Perspective</strong></h6>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 15</li>
+<li class="list-inline-item">7 min rad</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="col-sm-4">
+<div class="row">
+<div class="col-1">
+<h4 class="text-black-50">06</h4>
+</div>
+<div class="col-11">
+<img class="rounded-circle float-right" src="https://picsum.photos/id/16/20/20" alt="" >
+<span class="small ml-1">Physics History in Cantor’s Paradise</span>
+<h6 class="mt-2"><strong>15 Best Science Books Of All Time</strong></h6>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 12</li>
+<li class="list-inline-item">6 min read</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i></li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!------- conteiner bitti------->
+<div class="border-top-dark irem ">
+<div class="conteiner">
+<div class="row mt-5 ">
+<section class="col-sm-8">
+<article class="row mb-3">
+<div class="col-8"> <img class="rounded-circle float-right" src="https://picsum.photos/id/15/20/20" alt="" >
+<span class="small ml-1">Ellie Reaves</span>
+<h6 class="mt-2"><strong>Things I Wish My Students Knew
+</strong>
+</h6>
+<p>I lost two students last month.</p>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 15</li>
+<li class="list-inline-item">7 min rad</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Teaching</a>
+</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i></li>
+</ul>
+</div>
+<div class="col-4">
+<img src="https://picsum.photos/200/134" alt="" class="w-100">
+</div>
+</article>
+<article class="row mb-3">
+<div class="col-8 mt-5"> <img class="rounded-circle float-right" src="https://picsum.photos/id/15/20/20" alt="" >
+<span class="small ml-1">John DeVore in Humungus</span>
+<h6 class="mt-2"><strong>My Favorite Podcast Is Talking To You On The <br> Phone For Hours
+</strong>
+</h6>
+<p>I’m no self-help guru but call your friends</p>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 15</li>
+<li class="list-inline-item">7 min rad</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Friendship</a>
+</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i></li>
+</ul>
+</div>
+<div class="col-4">
+<img src="https://picsum.photos/id/35/200/134" alt="" class="w-100 mt-5 ">
+</div>
+</article>
+<article class="row mb-3">
+<div class="col-8 mt-5">
+<img class="rounded-circle float-right" src="https://picsum.photos/id/25/20/20" alt="" >
+<span class="small ml-1">Irma McClaurin in ZORA</span>
+<h6 class="mt-2"><strong>Ode to bell hooks
+</strong>
+</h6>
+<p>sista bell hooks,</p>
+<ul class="list-inline small">
+<li class="list-inline-item">Dec 15</li>
+<li class="list-inline-item">7 min rad</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Bell Hooks</a>
+</li>
+<li class="list-inline-item"><i class="fas fa-star small"></i></li>
+</ul>
+</div>
+<div class="col-4">
+<img src="https://picsum.photos/id/30/200/134" alt="" class="w-100 mt-5">
+</div>
+</article>
+</section>
+<aside class="col-sm-4">
+<h6 class="small mt-2"><strong>DISCOVER MORE OF WHAT MATTERS TO YOU
+</strong>
+</h6>
+<ul class="list-inline aside-buttons ">
+<li class="list-inline-item mt-2">
+<!-- btn-sm butonu küçülttü -->
+<a href="" class="btn btn-sm btn-outline-secondary">Self</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Relationship</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Data Science</a>
+</li>
+<li class="list-inline-item">
+<!-- btn-sm butonu küçülttü -->
+<a href="" class="btn btn-sm btn-outline-secondary">Programming</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Productivity</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Javascript</a>
+</li> <li class="list-inline-item">
+<!-- btn-sm butonu küçülttü -->
+<a href="" class="btn btn-sm btn-outline-secondary">Politics</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Health</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Machine Learning</a>
+</li> <li class="list-inline-item">
+<!-- btn-sm butonu küçülttü -->
+<a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a>
+</li>
+<li class="list-inline-item">
+<a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a>
+</li>
+</ul>
+</aside>
+</div>
+</div>
+</div>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
